@@ -1,0 +1,8 @@
+
+  #menu-toggle:checked + #menu {
+    display: block;
+  }
+  #brand{
+    vertical-align: middle;
+  }
+  
