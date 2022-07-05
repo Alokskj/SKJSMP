@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5046319178676899"
      crossorigin="anonymous"></script>
@@ -22,6 +21,15 @@
       }
     }
   </script>
+   <style>
+    
+    #menu-toggle:checked + #menu {
+     display: block;
+   }
+   #brand{
+     vertical-align: middle;
+   }
+     </style>
   <title>HOME | SKJSMP</title>
 </head>
 
@@ -71,7 +79,7 @@
               </div>
               <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">SKJ SMP</h2>
               <p class="leading-relaxed text-base">Skj Smp is a fully survival expirence smp you can make teams builds, own dynasty and be powerfull</p>
-              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Join</button>
+              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded" onclick="window.location.href='/skjsmpip.html'">Join</button>
 
               
               
@@ -83,11 +91,17 @@
               </div>
               <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">SKJ PIXEL</h2>
               <p class="leading-relaxed text-base">Skj Pixel is a minigames server in this you can play games like Bedwars,Skywars and parkour with your friends</p>
-              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">join</button>
+              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded" onclick="clickAlert()" value="Click-2-Alert" >Join</button>
+
             </div>
           </div>
         </div>
       </section>
+      <script>
+        function clickAlert() {
+          alert("Alert! You need to upgrade your plan");
+      }
+      </script>
   </main>
   <footer class="bg-gray-200 text-center lg:text-left">
     <div class="text-white text-center p-4 bg-[#353c7e]" >
