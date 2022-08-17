@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5046319178676899"
+     crossorigin="anonymous"></script>
+    
+    
     // open
     const burger = document.querySelectorAll('.navbar-burger');
     const menu = document.querySelectorAll('.navbar-menu');
